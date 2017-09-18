@@ -668,41 +668,58 @@ table {
 h1, h2, h3, h4, h5, h6, p, a, li, ul {
   color: #161616; }
 
+body {
+  font-family: 'Alegreya Sans', sans-serif; }
+
 h1 {
-  font-size: 70px; }
+  font-size: 70px;
+  font-family: 'Shadows Into Light', cursive; }
 
 h2 {
   font-size: 25px; }
 
-body {
-  font-family: 'Asap Condensed', sans-serif; }
-
-nav {
-  background-color: #e3d9fb; }
-  nav ul {
-    text-align: center;
-    margin: 30px 0 15px 0; }
-  nav li {
-    display: inline;
-    margin-left: 150px;
-    font-size: 25px;
-    text-decoration: none; }
-    nav li:first-child {
-      margin-left: 0; }
-    nav li a {
-      text-decoration: none; }
-
 .intro {
-  padding: 100px 0;
+  background-color: #f8d9fb;
+  overflow: hidden;
   text-align: center; }
   .intro h2 {
     margin-top: 20px; }
   .intro img {
     margin-top: 20px;
-    max-width: 70px; }
+    max-width: 160px;
+    position: relative;
+    bottom: -70px; }
+
+.nav-links {
+  text-align: center;
+  margin: 30px 0 15px 0;
+  padding: 10px; }
+  .nav-links li {
+    display: inline;
+    margin-left: 30px;
+    font-size: 25px;
+    text-decoration: none; }
+    .nav-links li:first-child {
+      margin-left: 0; }
+    .nav-links li a {
+      text-decoration: none;
+      border: 3px solid white;
+      border-radius: 100%;
+      padding: 10px;
+      transition: border-radius 0.2s linear; }
+      .nav-links li a:hover {
+        border-radius: 30%; }
 
 .about {
-  background-color: #e3d9fb;
-  text-align: center; }
+  text-align: center;
+  padding: 100px 0; }
+  .about img {
+    max-width: 100px; }
+  .about p {
+    max-width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */
