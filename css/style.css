@@ -668,11 +668,17 @@ table {
 h1, h2, h3, h4, h5, h6, p, a, li, ul {
   color: #161616; }
 
+h1 {
+  font-size: 70px; }
+
+h2 {
+  font-size: 25px; }
+
 body {
   font-family: 'Asap Condensed', sans-serif; }
 
 nav {
-  background-color: #d2bfff; }
+  background-color: #e3d9fb; }
   nav ul {
     text-align: center;
     margin: 30px 0 15px 0; }
@@ -685,5 +691,18 @@ nav {
       margin-left: 0; }
     nav li a {
       text-decoration: none; }
+
+.intro {
+  padding: 100px 0;
+  text-align: center; }
+  .intro h2 {
+    margin-top: 20px; }
+  .intro img {
+    margin-top: 20px;
+    max-width: 70px; }
+
+.about {
+  background-color: #e3d9fb;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
