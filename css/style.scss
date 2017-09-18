@@ -1,0 +1,38 @@
+@import "reset";
+@import "grid";
+
+h1, h2, h3, h4, h5, h6, p, a, li, ul {
+
+    color: rgb(22, 22, 22);
+}
+
+body {
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+nav {
+
+    background-color: rgb(210, 191, 255);
+
+    ul {
+        text-align: center;
+        margin: 30px 0 15px 0;
+
+    }
+
+    li {
+        display: inline;
+        margin-left: 150px;
+        font-size: 25px;
+        text-decoration: none;
+
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
